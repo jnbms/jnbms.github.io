@@ -1,0 +1,42 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap'); */
+
+
+@media (min-width: 768px){
+    body{
+        /* color: red; */
+    }
+}
+@media (min-width: 1024px){
+    body{
+        /* color: blue; */
+    }
+}
+
+.card{
+    transition: transform 0.1s;
+}
+.card:hover{
+    transform: scale(0.95);
+    /* background-color: rgb(151, 151, 151); */
+}
+.scrollbox::-webkit-scrollbar{
+    display: none;
+}
+/* markdown 인용구 */
+blockquote {
+    /* background: #fafafa; */
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px .1em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+.projectCard{
+    /* color: red; */
+    /* height: 0px; */
+}
+.projectCard:hover{
+    /* height: 200%; */
+    /* transform: scale(1.1); */
+    opacity: 80%;
+}
