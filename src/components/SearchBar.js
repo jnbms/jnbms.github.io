@@ -5,9 +5,10 @@ import { Column, Row } from '../styles/StyledFlexComponents'
 export default function SearchBar(){
     return (
         <Column align="flex-end"
-            style={{borderBottom:"1px dashed",paddingBottom:20}}>
+            width= "100%"
+            style={{borderBottom:"1px dashed ",paddingBottom:20}}>
             <div style={{fontWeight:"bold"}}>SEARCH</div>
-            <Column width="100%">
+            <Column width="50%">
                 <input placeholder="검색" style={{textAlign:"right"}}/>
             </Column>
         </Column>

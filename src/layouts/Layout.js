@@ -14,7 +14,8 @@ const HeadLine = (props) => (
 export default function Layout(props){
     return (
         <Column width="100%" align="center">
-            <Column class="max-width" style={{maxWidth:"90%"}}>
+            {/* 항상 브라우저 사이즈의 80%를 담당하면 된다. */}
+            <Column className="max-width" style={{width:"80%"}} align="center">
                 <HeadLine uri={props.uri}/>
                     {props.children}
             </Column>

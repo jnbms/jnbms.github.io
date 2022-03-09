@@ -1,5 +1,4 @@
-import React, { useContext } from 'react'
-import ColorContext from '../state/context/ColorContext';
+import React from 'react'
 import { Column } from '../styles/StyledFlexComponents';
 import BlogCard from './BlogCard';
 
@@ -8,7 +7,7 @@ import BlogCard from './BlogCard';
 export default function BlogCardContainer(props){
     const {postList} = props;
     return(
-        <Column width="100%" align="center">
+        <Column align="center">
             {postList.map((post) => (
                 <BlogCard
                     key={post.id}

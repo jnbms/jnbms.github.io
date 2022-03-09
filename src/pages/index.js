@@ -1,14 +1,12 @@
 import { graphql } from "gatsby";
-import React, { useContext, useEffect, useState, useRef } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import BlogCardContainer from "../components/BlogCardContainer";
-import Header from "../components/Header";
-import Line from "../styles/components/Line";
 import Pagination from "../components/Pagination";
 import SideMenuBar from "../components/SideMenuBar";
 import { CategoryContext } from "../state/context/SelectedCategory";
-import { Column, Row } from "../styles/StyledFlexComponents";
+import { Column } from "../styles/StyledFlexComponents";
 import Layout from "../layouts/Layout";
-import { DIV, Hidden, Show } from "../styles/Layout/ResponsiveLayout";
+import { DIV, Show } from "../styles/Layout/ResponsiveLayout";
 
 const blogList = [
     {
@@ -17,7 +15,7 @@ const blogList = [
     },
     {
         title: "FRONTEND",
-        list: ["React","Vue","Svelte"]
+        list: ["React","Vue"]
     },
     {
         title: "MOBILE",
@@ -25,7 +23,7 @@ const blogList = [
     },
     {
         title: "BAKEND",
-        list: ["Express","Nest"]
+        list: ["Nest","Spring Boot"]
     },
 ]
 
@@ -38,7 +36,7 @@ export default function Index(props){
     const [selectedPosts,setSelectedPosts] = useState(AllPosts);
     const {selectedCategory} = useContext(CategoryContext);
     useEffect(() => {
-        selectedCategory == "All" ?
+        selectedCategory === "All" ?
         setSelectedPosts(AllPosts) :
         setSelectedPosts(AllPosts.filter(list => list.frontmatter.category === selectedCategory))
     }, [selectedCategory])
@@ -64,16 +62,16 @@ export const query = graphql`
             filter: {fileAbsolutePath: {regex: "/blog/"}},
             sort: {fields: frontmatter___date}
         ){
-          nodes {
+            nodes {
             frontmatter {
-              category
-              date
-              description
-              iconifyIconName
-              title
+                category
+                date
+                description
+                iconifyIconName
+                title
             }
             id
-          }
+            }
         }
     }
 `

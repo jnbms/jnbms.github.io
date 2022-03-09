@@ -4,8 +4,8 @@ import font_gowndodum from "../fonts/GowunDodum.ttf"
 
 const GlobalStyledComponent = createGlobalStyle`
 @font-face {
-  font-family: "Gowun Dodum";
-  src: url(${font_gowndodum});
+    font-family: "Gowun Dodum";
+    src: url(${font_gowndodum});
 }
 *{
     transition: color 0.5s;

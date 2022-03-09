@@ -39,9 +39,9 @@ const DIV = styled.div`
     ${responsive}
 `
 const Show = styled.div`
- @media(max-width: ${device["mobile"]}){display: ${props => !props.mobile ? "none" : ""}}
- @media(max-width: ${device["tablet"]}){display: ${props => !props.tablet ? "none" : ""}}
- @media(max-width: ${device["laptop"]}){display: ${props => !props.laptop ? "none" : ""}}
+    @media(max-width: ${device["mobile"]}){display: ${props => !props.mobile ? "none" : ""}}
+    @media(max-width: ${device["tablet"]}){display: ${props => !props.tablet ? "none" : ""}}
+    @media(max-width: ${device["laptop"]}){display: ${props => !props.laptop ? "none" : ""}}
 `
 
 

@@ -47,8 +47,8 @@ export default function Header(props){
                 >
                     <Select to="/">블로그</Select>
                     <Select to="/project">프로젝트</Select>
-                    <Select to="/about">소개</Select>
-                    <Select to="/resume">이력서</Select>
+                    {/* <Select to="/about">소개</Select> */}
+                    {/* <Select to="/">이력서</Select> */}
                     <div onClick={setDarkMode}>다크모드</div>
                 </DIV>
             </DIV>
