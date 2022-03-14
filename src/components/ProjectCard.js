@@ -8,10 +8,11 @@ export default function ProjectCard(props){
     // const {date, category, title, description, iconifyIconName, linkTo} = props;
     return (
         <Link to={linkTo}>
-            <Column className='projectCard' style={{border:"1px solid darkgray",paddingBottom:"1em"}}>
+            <Column className='projectCard'
+                style={{border:"1px solid darkgray",paddingBottom:"1em"}}>
                 <img src={titleImage} width="100%"/>
-                <Column>
-                    <div>{title}</div>
+                <Column style={{borderTop: "1px solid darkgray", paddingLeft: 20}}>
+                    <h3 style={{marginBlock: 10}}>{title}</h3>
                     {/* <strong>e-cumerse</strong> */}
                     <div>{description}</div>
                     <div>{date}</div>

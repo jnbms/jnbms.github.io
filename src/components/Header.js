@@ -4,7 +4,7 @@ import React, { useContext, useState } from "react";
 import styled from "styled-components";
 import ColorContext from "../state/context/ColorContext";
 import { DIV } from "../styles/Layout/ResponsiveLayout";
-import { Column, Row } from "../styles/StyledFlexComponents";
+
 
 const Strong = styled.div`
     font-weight: bold;

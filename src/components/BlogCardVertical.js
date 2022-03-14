@@ -9,7 +9,7 @@ export default function BlogCardVertical(props) {
     return (
         <Column height="" width="50%" align="center" justify="center" style={{textAlign:"center"}}>
             <Icon height="112px" width="112px" icon={iconifyIconName} />
-            <div>{category}</div>
+            <div>{category}</div>          
             <div style={{fontSize:24, fontWeight:"bold"}}>{title}</div>
             <div>{description}</div>
             <div style={{fontSize:"small", opacity:"80%"}}>{date}</div>

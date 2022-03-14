@@ -33,8 +33,8 @@ export default function post(props) {
                     <BlogCardVertical {...markdown.frontmatter}/>
                 </Column>
             </BlogTopBackgroundColorContainer>
-            <DIV laptop_width="50%" tablet_width="75%" width="100%" justify="center"
-                width="100%" align="center" style={{margin:20}}
+            <DIV laptop_width="50%" tablet_width="75%" width="100%" justify="center" align="center"
+                style={{textAlign: "center"}}
                 dangerouslySetInnerHTML={{__html: markdown.html}}>
             </DIV>
         </Column>

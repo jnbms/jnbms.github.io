@@ -10,7 +10,7 @@ export default function ProjectCardContainer(props) {
     const evenList = list.filter((_,index) => index % 2 != 0)
     return (
             <DIV tablet="row" tablet_align="flex-start" gap="0.25em">
-                <Column  gap="0.25em">
+                <Column width="100%" gap="0.25em">
                 {oddList.map((post,index) => (
                   <ProjectCard
                     linkTo={`/project/${post.id}`}
@@ -21,7 +21,7 @@ export default function ProjectCardContainer(props) {
                     />
                   ))}                  
                 </Column>
-                  <Column gap="0.5em">
+                  <Column width="100%" gap="0.5em">
                   {evenList.map((post,index) => (
                     <ProjectCard
                       linkTo={`/project/${post.id}`}
