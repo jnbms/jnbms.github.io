@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-project-markdown-remark-id-js",
+    "path": "/project/612a454a-7c1a-5eab-8fd5-d737ce469b44/",
+    "result": {"data":{"allMarkdownRemark":{"nodes":[{"frontmatter":{"category":"Svelte","date":"2022-01-06","description":"3대장. 벨트를 잘 차라.","image":null,"title":"스벨트"},"id":"612a454a-7c1a-5eab-8fd5-d737ce469b44","html":""}]}},"pageContext":{"id":"612a454a-7c1a-5eab-8fd5-d737ce469b44","__params":{"id":"612a454a-7c1a-5eab-8fd5-d737ce469b44"}}},
+    "staticQueryHashes": []}

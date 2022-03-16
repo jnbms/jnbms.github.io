@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-project-markdown-remark-id-js",
+    "path": "/project/496f14a1-423b-58d3-9cb6-06f738564bff/",
+    "result": {"data":{"allMarkdownRemark":{"nodes":[{"frontmatter":{"category":"Vue","date":"2022-01-04","description":"Vue3.0에 추가된 기술","image":null,"title":"Compose Api"},"id":"496f14a1-423b-58d3-9cb6-06f738564bff","html":""}]}},"pageContext":{"id":"496f14a1-423b-58d3-9cb6-06f738564bff","__params":{"id":"496f14a1-423b-58d3-9cb6-06f738564bff"}}},
+    "staticQueryHashes": []}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-project-markdown-remark-id-js",
+    "path": "/project/b9d20085-9fa1-5d87-bcc4-3f4e96ff8067/",
+    "result": {"data":{"allMarkdownRemark":{"nodes":[{"frontmatter":{"category":"React","date":"2022-01-07","description":"하위 컴포넌트에서 상위 컴포넌트로 Props 넘기는 것에 대하여","image":null,"title":"Emitter"},"id":"b9d20085-9fa1-5d87-bcc4-3f4e96ff8067","html":"<p><Mdx>MDX is work?</Mdx></p>"}]}},"pageContext":{"id":"b9d20085-9fa1-5d87-bcc4-3f4e96ff8067","__params":{"id":"b9d20085-9fa1-5d87-bcc4-3f4e96ff8067"}}},
+    "staticQueryHashes": []}

@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-404-js-23ca25935755df301cbf.js","mappings":"4JAEe,SAASA,IACpB,OACI","sources":["webpack://jnbm/./src/pages/404.js"],"sourcesContent":["import React from 'react'\n\nexport default function NotFoundPage() {\n    return (\n        <div>\n            NotFoundPage\n        </div>\n    )\n}\n"],"names":["NotFoundPage"],"sourceRoot":""}
