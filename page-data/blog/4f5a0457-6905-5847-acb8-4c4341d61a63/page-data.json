@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-blog-markdown-remark-id-js",
+    "path": "/blog/4f5a0457-6905-5847-acb8-4c4341d61a63/",
+    "result": {"data":{"allMarkdownRemark":{"nodes":[{"frontmatter":{"category":"프로젝트","date":"2022-03-16","description":"레시피 추천 프로젝트","iconifyIconName":null,"title":"오늘의 밥상"},"id":"4f5a0457-6905-5847-acb8-4c4341d61a63","html":"<p><a href=\"/project/recipes/app.apk\" download style=\"color : blue; text-decoration: underline;\">apk 파일 다운로드</a></p>"}]}},"pageContext":{"id":"4f5a0457-6905-5847-acb8-4c4341d61a63","__params":{"id":"4f5a0457-6905-5847-acb8-4c4341d61a63"}}},
+    "staticQueryHashes": []}

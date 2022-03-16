@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-project-markdown-remark-id-js",
     "path": "/project/b7b28e8d-eb5f-53fc-8b0f-30090620a523/",
-    "result": {"data":{"allMarkdownRemark":{"nodes":[{"frontmatter":{"category":"프로젝트","date":"2022-03-14","description":"최신 유행하는 영화 소개 어플","image":"/project/movie/title.png","title":"Movie 앱"},"id":"b7b28e8d-eb5f-53fc-8b0f-30090620a523","html":"<h3>다운로드</h3>\n<a style=\"color: blue; text-decoration: underline;\" href=\"https://expo.dev/artifacts/6644a571-5e52-405b-a382-206440f1bd6a\">APK 파일 다운로드</a>"}]}},"pageContext":{"id":"b7b28e8d-eb5f-53fc-8b0f-30090620a523","__params":{"id":"b7b28e8d-eb5f-53fc-8b0f-30090620a523"}}},
+    "result": {"data":{"allMarkdownRemark":{"nodes":[{"frontmatter":{"category":"프로젝트","date":"2022-03-14","description":"최신 유행하는 영화 소개 어플","image":"/project/movie/main.png","title":"Movie 앱"},"id":"b7b28e8d-eb5f-53fc-8b0f-30090620a523","html":"<h3>다운로드</h3>\n<a style=\"color: blue; text-decoration: underline;\" href=\"https://expo.dev/artifacts/6644a571-5e52-405b-a382-206440f1bd6a\">APK 파일 다운로드</a>"}]}},"pageContext":{"id":"b7b28e8d-eb5f-53fc-8b0f-30090620a523","__params":{"id":"b7b28e8d-eb5f-53fc-8b0f-30090620a523"}}},
     "staticQueryHashes": []}
